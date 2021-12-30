@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins";
+    color: white;
+}
+
+.instagram{
+    height: 520px;
+    width: 320px;
+    background: black;
+    margin: 0 auto;
+    transform: translateY(25px);
+    border-radius: 15px;
+}
+
+.name_id .btn-left{
+   float: left;
+}
+.btn-menu, .btn-bell{
+    float: right;
+}
+.btn-bell:hover{
+    font-size: 18px;
+    transform: skewX(10deg);
+}
+.name_id {
+    text-align: center;
+    margin: 5px;
+
+}
+.btn-name{
+    color: red;
+}
+.card_img img{
+    height: 100px;
+    width: 100px;   
+    border: 1px solid;
+    border-radius:50% ;
+    margin-left: 10px;
+}
+
+
+.card_nav ul li{
+    display: inline-block;
+    text-align: center;
+    margin-left:15px ;
+}
+.card_nav{
+    position: relative;
+    top:-80px;
+    float: right;
+    text-align: center;
+    right: 30px;
+   
+}
+.tit {
+    font-size: 10px;
+}
+.card_info h2{
+ font-size: large;
+ margin-left: 5px;
+}
+.info_span{
+    color: rgb(78, 73, 73);
+    font-size: small;
+    margin-left: 5px;
+    position: relative;
+    left: -2px;
+    top: -14px;
+}
+.card_info p{
+    position: relative;
+    left: 5px;
+    top: -21px;
+    font-size: 13px;
+    color: wheat;
+}
+
+.card_button{
+    top: -10px;
+    text-align: center;
+    
+}
+.card_button button{
+    height: 30px;
+    width: 125px;
+    background: black;
+    border-radius: 15px;
+    border: 1px solid rgb(59, 57, 57);
+    color: chartreuse;
+
+}
+
+.card_button button:hover{
+    color: red;
+    border-color: seashell;
+}
+
+.card_tag{
+    position: relative;
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.btn-gird{
+    margin: 0 auto;
+    width: 125px;
+    border-bottom: 1px solid seashell;
+    text-align: center;
+}
+.btn-video{
+    margin: 0 auto;
+    width: 125px;
+    color: rgb(68, 59, 58);
+    text-align: center;
+
+}
+.images{
+    text-align: center;
+}
+.images img{
+    height: 100px;
+    width: 100px;
+}
+
+.footer{
+    margin: 0 auto;
+    background: white;
+    height: 7px;
+    width: 120px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
